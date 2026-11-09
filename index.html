@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facemash - Redes Sociais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Qual rede social é melhor?</h1>
+  <p class="subtitulo">Clique na sua preferida!</p>
+
+  <!-- As duas opções lado a lado -->
+  <div class="opcoes">
+
+    <div class="cartao" id="cartao1" onclick="votar(indice1)">
+      <img src="" alt="Rede social 1">
+      <p></p>
+    </div>
+
+    <div class="vs">VS</div>
+
+    <div class="cartao" id="cartao2" onclick="votar(indice2)">
+      <img src="" alt="Rede social 2">
+      <p></p>
+    </div>
+
+  </div>
+
+  <!-- Resultado aparece aqui depois do voto -->
+  <div id="resultado">
+    <h2>Placar atual</h2>
+    <div id="barras"></div>
+    <p id="proximo-aviso"></p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
